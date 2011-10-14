@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UFT-8">
+<title>rilTest</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.jfeed.pack.js"></script>
+<script type="text/javascript" src="./js/ril.js"></script>
+<script type="text/javascript">
+<!--
+function initRSSFeed(){
+    jQuery.getFeed({url:'proxy.php?url=http://feeds.feedburner.com/hatena/b/hotentry',success:onComplete});
+}
+//-->
+</script>
+<style type="text/css">
+html{
+    background-image:url(./img/elastoplast.png);
+}
+a:hover{
+    text-decoration:none;
+}
+#news{
+    margin:0 auto;
+}
+li{
+    list-style-type:none;
+    margin-top:4px;
+    padding:5px 3px;
+    border:#000 1px solid;
+    border-radius: 3px; 
+}
+li a{
+    text-decoration:none;
+}
+li description{
+    margin-top:10px;
+}
+</style>
+</head>
+<body onLoad="initRSSFeed();">
+    <div id="news"></div>
+</body>
+</html>
