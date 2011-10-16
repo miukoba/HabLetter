@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UFT-8">
-<title>rilTest</title>
+<title>HabLetter</title>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="./js/jquery.jfeed.pack.js"></script>
 <script type="text/javascript" src="./js/ril.js"></script>
@@ -14,7 +14,10 @@ function initRSSFeed(){
 </script>
 <style type="text/css">
 html{
-    background-image:url(./img/elastoplast.png);
+    background-image:url(./img/bgBody.png);
+}
+#footer{
+    background-image:url(./img/bgFooter.png);
 }
 a:hover{
     text-decoration:none;
@@ -38,6 +41,7 @@ li description{
 </style>
 </head>
 <body onLoad="initRSSFeed();">
+    <h1 id="logo"><a href="/"><img src="./img/logo.png" alt="HabLetter" width="139" height="36"></a></h1>
     <div id="news"></div>
 </body>
 </html>
