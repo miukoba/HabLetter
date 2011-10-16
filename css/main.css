@@ -1,0 +1,29 @@
+html{
+    background-image:url(../img/bgBody.png);
+}
+h3{
+    font-size:1.5em;
+}
+#footer{
+    text-align:right;
+    background-image:url(../img/bgFooter.png);
+    margin-top:10px;
+    padding:10px 0;
+    color:#fff;
+}
+a,a:link,a:visited,a:active,a:hover{
+}
+#footer a {
+    color:#fff;
+}
+li{
+    list-style-type:none;
+    margin-top:6px;
+    padding:5px;
+    border:#000 1px solid;
+    border-radius: 6px;
+    background-color: #F6F6F4;
+}
+li description{
+    margin-top:10px;
+}
