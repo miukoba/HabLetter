@@ -6,7 +6,7 @@ function onComplete(feed)
         var url = item.link;
         var title = item.title;
         temp +='<li>';
-        temp +='<a class="ril" href="http://readitlaterlist.com/edit_process.php?url=' + url + '&title=' + title + '" target="readitlateriframe">RIL!</a>' + '<span class="title">' + title + '</span>';
+        temp +='<a class="ril" href="http://readitlaterlist.com/edit_process.php?url=' + url + '&title=' + title + '" target="readitlateriframe">ReadItLater!</a>' + '<h3 class="title">' + title + '</h3>';
         temp +='<div class="description">' + item.description + '</div>';
         temp +='</li>';
     }
